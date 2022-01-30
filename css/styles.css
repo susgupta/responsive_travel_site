@@ -223,7 +223,9 @@ i{
     margin-top: var(--nav-height);
 }
 
-.showcase-container{
+.showcase-container,
+.popular-destinations-container,
+.plan-trip-container{
     gap: var(--gap-lg);
 }
 
@@ -356,7 +358,98 @@ i{
     display: inline-flex;
 }
 /* Newsletter */
+.newsletter{
+    background: url('../images/newsletter-image.jpg') center no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 5;
+}
 
+.newsletter::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .4);
+    z-index: -1;
+}
+
+.newsletter-container{
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-container-inner{
+    max-width: 78rem;
+    text-align: center;
+    color: var(--light-clr);
+}
+
+.btn-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--gap-md);
+}
+
+.btn-light{
+    background-color: var(--light-clr);
+    color: var(--dark-clr);
+}
+
+.btn-light:hover{
+    color: var(--light-clr);
+}
 /* Footer */
+.footer{
+    background-color: var(--light-clr);
+    padding-bottom: 4rem;
+}
 
+.footer-container-inner{
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: var(--gap-md);
+}
+
+.contact-information address{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contact-information .list{
+    flex-direction: row;
+    margin-top: 1.5rem;
+}
+
+.footer .list-link{
+    transition: color .25s;
+}
+
+.footer .list-link::after{
+    display: none;
+}
+
+.footer .list-link:hover{
+    color: var(--accent-clr);
+}
+
+.footer-title{
+    font-size: var(--font-size-sm);
+}
+
+.footer-separator{
+    margin-block: 2.5rem;
+    opacity: .2;
+}
+
+.copyright{
+    opacity: .8;
+}
+
+.underline{
+    text-decoration: underline;
+}
 /* Media queries */

@@ -11,4 +11,8 @@ Still Work in Progress......
 
 ## Real-Time Viewing For Web Version
 
-TBD - Coming Soon
+The application was publised using [GitHub Pages](https://pages.github.com/). 
+
+Here is link to view the application:
+
+[Sushil G Responsive Travel Site](https://susgupta.github.io/responsive_travel_site/index.html)
