@@ -1,6 +1,10 @@
 # Sushil G Responsive Travel Site (Design Exercise)
 
-Still Work in Progress......
+This is a responsive design exercise to create a fake travel/beach themed site.  Using media queries to cover break point design.  Same with site navigation for media queries. 
+
+Icons are using cool icons from [Remix Icons](https://remixicon.com).
+
+Also added cool scroll effects on wrapper elements using [Scroll Reveal](https://scrollrevealjs.org/).
 
 
 ## Technologies Used
@@ -8,6 +12,8 @@ Still Work in Progress......
 - HTML
 - CSS 
 - JavaScript
+- JS Library - Scroll Reveal -> https://scrollrevealjs.org/
+- Remix Icons -> https://remixicon.com
 
 ## Real-Time Viewing For Web Version
 
